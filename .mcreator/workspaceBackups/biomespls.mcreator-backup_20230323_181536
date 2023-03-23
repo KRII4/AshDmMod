@@ -1024,19 +1024,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "F",
-      "type": "code",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "f",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/biomespls/F.java"
-        ]
-      }
-    },
-    {
       "name": "Ashboneblock",
       "type": "block",
       "sortid": 82,
@@ -1140,7 +1127,8 @@
           "src/main/resources/assets/biomespls/models/block/damaged_ashen_bricks.json",
           "src/main/java/net/mcreator/biomespls/block/DamagedAshenBricksBlock.java"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "ZarosAshenStone",
