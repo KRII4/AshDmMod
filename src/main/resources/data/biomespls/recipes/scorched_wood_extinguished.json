@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biomespls:scorched_wood"
+    }
+  ],
+  "result": {
+    "item": "biomespls:scorch_wood_no_flame",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+JVM:         E:\Games\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\stripClient\output.jar", "--server", "E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\stripServer\output.jar", "--ann", "1.19.2", "--output", "E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\User\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

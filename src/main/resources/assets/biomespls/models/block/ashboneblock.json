@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomespls:blocks/ashboneblosk",
+    "up": "biomespls:blocks/ashboneblosk",
+    "north": "biomespls:blocks/ashboneblosk",
+    "east": "biomespls:blocks/ashboneblosk",
+    "south": "biomespls:blocks/ashboneblosk",
+    "west": "biomespls:blocks/ashboneblosk",
+    "particle": "biomespls:blocks/ashboneblosk"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biomespls:scorch_wood_no_flame"
+    }
+  ],
+  "result": {
+    "item": "biomespls:ash_wood_planks",
+    "count": 4
+  }
+}

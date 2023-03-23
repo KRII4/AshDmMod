@@ -1,0 +1,6 @@
+JVM:         E:\Games\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f12be50cc7c320b6e64533598bb4f3b4de98f76d\rename\output.jar", "--outJar", "E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f12be50cc7c320b6e64533598bb4f3b4de98f76d\AccessTransformer\output.jar", "--atFile", "E:\MCreatorWorkspaces\biomespls\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\User\AppData\Local\Temp\FG_ats_6138650462562026832.cfg"
+Classpath:   C:\Users\User\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\f12be50cc7c320b6e64533598bb4f3b4de98f76d\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

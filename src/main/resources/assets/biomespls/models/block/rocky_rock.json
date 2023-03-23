@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomespls:blocks/rockyrocktor",
+    "up": "biomespls:blocks/rockyrocktor",
+    "north": "biomespls:blocks/rockyrock",
+    "east": "biomespls:blocks/rockyrock",
+    "south": "biomespls:blocks/rockyrock",
+    "west": "biomespls:blocks/rockyrock",
+    "particle": "biomespls:blocks/rockyrocktor"
+  },
+  "render_type": "solid"
+}

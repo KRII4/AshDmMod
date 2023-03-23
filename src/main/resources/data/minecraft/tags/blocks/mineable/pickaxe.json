@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "biomespls:ash_rock",
+    "biomespls:elemental_ore_block",
+    "biomespls:broken_ash_stone",
+    "biomespls:very_breaked_ash_stone",
+    "biomespls:rocky_rock",
+    "biomespls:ash_history_block_1",
+    "biomespls:ash_history_block_2",
+    "biomespls:ash_history_block_3",
+    "biomespls:ash_history_block_4",
+    "biomespls:ash_history_block_5",
+    "biomespls:ash_history_block_6",
+    "biomespls:ash_craft_block_11",
+    "biomespls:ash_craft_block_12",
+    "biomespls:ash_history_block_21",
+    "biomespls:ash_history_block_22",
+    "biomespls:ash_history_block_23",
+    "biomespls:ash_history_block_24",
+    "biomespls:ash_craftb_block_21",
+    "biomespls:ash_craftb_block_22",
+    "biomespls:ash_craftb_block_23",
+    "biomespls:ash_craftb_block_24"
+  ]
+}

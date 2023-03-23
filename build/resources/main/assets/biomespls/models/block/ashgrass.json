@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomespls:blocks/sgbnn",
+    "up": "biomespls:blocks/sgt",
+    "north": "biomespls:blocks/sgbn",
+    "east": "biomespls:blocks/sgbn",
+    "south": "biomespls:blocks/sgbn",
+    "west": "biomespls:blocks/sgbn",
+    "particle": "biomespls:blocks/sgbnn"
+  },
+  "render_type": "solid"
+}

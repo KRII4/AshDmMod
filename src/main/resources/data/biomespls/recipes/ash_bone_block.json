@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "biomespls:ashbone"
+    },
+    "1": {
+      "item": "biomespls:ashbone"
+    },
+    "2": {
+      "item": "biomespls:ashbone"
+    },
+    "3": {
+      "item": "biomespls:ashbone"
+    },
+    "4": {
+      "item": "biomespls:ashbone"
+    },
+    "5": {
+      "item": "biomespls:ashbone"
+    },
+    "6": {
+      "item": "biomespls:ashbone"
+    },
+    "7": {
+      "item": "biomespls:ashbone"
+    },
+    "8": {
+      "item": "biomespls:ashbone"
+    }
+  },
+  "result": {
+    "item": "biomespls:ashboneblock",
+    "count": 1
+  }
+}

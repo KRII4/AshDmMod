@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomespls:blocks/elemoreanim",
+    "up": "biomespls:blocks/elemoreanim",
+    "north": "biomespls:blocks/elemoreanim",
+    "east": "biomespls:blocks/elemoreanim",
+    "south": "biomespls:blocks/elemoreanim",
+    "west": "biomespls:blocks/elemoreanim",
+    "particle": "biomespls:blocks/elemoreanim"
+  },
+  "render_type": "solid"
+}

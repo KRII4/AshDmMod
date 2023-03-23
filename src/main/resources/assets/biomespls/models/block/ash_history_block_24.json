@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomespls:blocks/ashstn1",
+    "up": "biomespls:blocks/ashstn1",
+    "north": "biomespls:blocks/ashhistoryblock24",
+    "east": "biomespls:blocks/ashhistoryblock24",
+    "south": "biomespls:blocks/ashhistoryblock24",
+    "west": "biomespls:blocks/ashhistoryblock24",
+    "particle": "biomespls:blocks/ashstn1"
+  },
+  "render_type": "solid"
+}

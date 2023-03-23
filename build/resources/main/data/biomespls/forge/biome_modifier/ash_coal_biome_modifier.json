@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "biomespls:ash_coal",
+  "step": "underground_ores"
+}

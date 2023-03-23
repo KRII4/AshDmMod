@@ -1,0 +1,9 @@
+JVM:         E:\Games\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\AccessTransformer\output.jar", "--output", "E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\SideStripper\output.jar", "--data", "E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\SideStripper\string_data.sas"
+Classpath:   C:\Users\User\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\AccessTransformer\output.jar
+Output: E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\SideStripper\output.jar
+Data:   E:\MCreatorWorkspaces\biomespls\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0194e228ed08bb59d7e8cf2d728ba7287d8ab21a\SideStripper\string_data.sas

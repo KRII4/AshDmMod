@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "biomespls:blocks/zarosashenstone",
+    "up": "biomespls:blocks/zarosashenstone",
+    "north": "biomespls:blocks/zarosashenstone",
+    "east": "biomespls:blocks/zarosashenstone",
+    "south": "biomespls:blocks/zarosashenstone",
+    "west": "biomespls:blocks/zarosashenstone",
+    "particle": "biomespls:blocks/zarosashenstone"
+  },
+  "render_type": "solid"
+}

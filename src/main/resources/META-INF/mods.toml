@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="biomespls"
+version="0.0.1"
+displayName="Biomespls"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Krich01, MCreator"
+description='''
+Ash timension is there!
+'''
+
+[[dependencies.biomespls]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.biomespls]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43.2.0]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.biomespls]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

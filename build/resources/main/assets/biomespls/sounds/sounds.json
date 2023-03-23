@@ -1,0 +1,21 @@
+{
+  "ashambient": {
+    "category": "ambient",
+    "subtitle": "subtitles.ashambient",
+    "sounds": [
+      {
+        "name": "biomespls:soundtrack1",
+        "stream": false
+      }
+    ]
+  },
+  "slimejump4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "biomespls:slimejump4",
+        "stream": false
+      }
+    ]
+  }
+}
