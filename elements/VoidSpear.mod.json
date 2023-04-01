@@ -1,0 +1,43 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "bonestick",
+    "customModelName": "voidspear:default",
+    "name": "Void Spear",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ScorchedBiome"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:VoidSpear"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "item.trident.throw"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 4.0,
+    "bulletPower": 0.5,
+    "bulletDamage": 20.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:VoidSpear"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "VoidSpearProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "VoidSpearProjectileHitsLivingEntity"
+    }
+  }
+}

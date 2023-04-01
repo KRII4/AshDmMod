@@ -106,7 +106,7 @@ public class NightOkoAggressiveEntity extends Monster implements IAnimatable {
 		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Pillager.class, false, false));
 		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, QuaddyEntity.class, false, false));
 		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, AshenSlimeEntity.class, false, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, AshSlimeEntity.class, false, false));
 		this.goalSelector.addGoal(11, new MeleeAttackGoal(this, 1.9, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {

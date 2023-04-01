@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "biomespls:rocky_hills",
+    "biomespls:biome_scorched"
+  ],
+  "spawners": {
+    "type": "biomespls:ash_slime",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

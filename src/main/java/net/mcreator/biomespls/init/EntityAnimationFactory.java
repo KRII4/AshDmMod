@@ -9,8 +9,8 @@ import net.mcreator.biomespls.entity.NightOkoAggressiveEntity;
 import net.mcreator.biomespls.entity.LavaSlimeEntity;
 import net.mcreator.biomespls.entity.GhostEntity;
 import net.mcreator.biomespls.entity.AshenSoulEntity;
-import net.mcreator.biomespls.entity.AshenSlimeEntity;
 import net.mcreator.biomespls.entity.AshenSkeletonEntity;
+import net.mcreator.biomespls.entity.AshSlimeEntity;
 
 @Mod.EventBusSubscriber
 public class EntityAnimationFactory {
@@ -18,13 +18,6 @@ public class EntityAnimationFactory {
 	public static void onEntityTick(LivingEvent.LivingTickEvent event) {
 		if (event != null && event.getEntity() != null) {
 			if (event.getEntity() instanceof LavaSlimeEntity syncable) {
-				String animation = syncable.getSyncedAnimation();
-				if (!animation.equals("undefined")) {
-					syncable.setAnimation("undefined");
-					syncable.animationprocedure = animation;
-				}
-			}
-			if (event.getEntity() instanceof AshenSlimeEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
@@ -60,6 +53,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof NightOkoAggressiveEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof AshSlimeEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

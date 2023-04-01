@@ -14,10 +14,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.biomespls.item.VoidSpearItem;
 import net.mcreator.biomespls.item.ThrowingTorchItem;
 import net.mcreator.biomespls.item.ScorchedDimensionItem;
 import net.mcreator.biomespls.item.PilentiumItem;
+import net.mcreator.biomespls.item.LavaShardItem;
 import net.mcreator.biomespls.item.ElementalShardItem;
+import net.mcreator.biomespls.item.ElementalPicaxeItem;
 import net.mcreator.biomespls.item.ElementItem;
 import net.mcreator.biomespls.item.ClotoflavaItem;
 import net.mcreator.biomespls.item.BoneStickItem;
@@ -48,8 +51,6 @@ public class BiomesplsModItems {
 	public static final RegistryObject<Item> ROCKY_ROCK = block(BiomesplsModBlocks.ROCKY_ROCK, BiomesplsModTabs.TAB_SCORCHED_BIOME);
 	public static final RegistryObject<Item> LAVA_SLIME_SPAWN_EGG = REGISTRY.register("lava_slime_spawn_egg",
 			() -> new ForgeSpawnEggItem(BiomesplsModEntities.LAVA_SLIME, -34812, -4509183, new Item.Properties().tab(BiomesplsModTabs.TAB_SCORCHED_BIOME)));
-	public static final RegistryObject<Item> ASHEN_SLIME_SPAWN_EGG = REGISTRY.register("ashen_slime_spawn_egg",
-			() -> new ForgeSpawnEggItem(BiomesplsModEntities.ASHEN_SLIME, -14606047, -1028352, new Item.Properties().tab(BiomesplsModTabs.TAB_SCORCHED_BIOME)));
 	public static final RegistryObject<Item> ASHEN_SOUL_SPAWN_EGG = REGISTRY.register("ashen_soul_spawn_egg",
 			() -> new ForgeSpawnEggItem(BiomesplsModEntities.ASHEN_SOUL, -15329770, -3307776, new Item.Properties().tab(BiomesplsModTabs.TAB_SCORCHED_BIOME)));
 	public static final RegistryObject<Item> GHOST_SPAWN_EGG = REGISTRY.register("ghost_spawn_egg", () -> new ForgeSpawnEggItem(BiomesplsModEntities.GHOST, -16777216, -65536, new Item.Properties().tab(BiomesplsModTabs.TAB_SCORCHED_BIOME)));
@@ -82,6 +83,11 @@ public class BiomesplsModItems {
 	public static final RegistryObject<Item> ASH_CRAFTB_BLOCK_22 = block(BiomesplsModBlocks.ASH_CRAFTB_BLOCK_22, BiomesplsModTabs.TAB_SCORCHED_BIOME);
 	public static final RegistryObject<Item> ASH_CRAFTB_BLOCK_23 = block(BiomesplsModBlocks.ASH_CRAFTB_BLOCK_23, BiomesplsModTabs.TAB_SCORCHED_BIOME);
 	public static final RegistryObject<Item> ASH_CRAFTB_BLOCK_24 = block(BiomesplsModBlocks.ASH_CRAFTB_BLOCK_24, BiomesplsModTabs.TAB_SCORCHED_BIOME);
+	public static final RegistryObject<Item> ASH_SLIME_SPAWN_EGG = REGISTRY.register("ash_slime_spawn_egg",
+			() -> new ForgeSpawnEggItem(BiomesplsModEntities.ASH_SLIME, -14803426, -1094912, new Item.Properties().tab(BiomesplsModTabs.TAB_SCORCHED_BIOME)));
+	public static final RegistryObject<Item> LAVA_SHARD = REGISTRY.register("lava_shard", () -> new LavaShardItem());
+	public static final RegistryObject<Item> ELEMENTAL_PICAXE = REGISTRY.register("elemental_picaxe", () -> new ElementalPicaxeItem());
+	public static final RegistryObject<Item> VOID_SPEAR = REGISTRY.register("void_spear", () -> new VoidSpearItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
