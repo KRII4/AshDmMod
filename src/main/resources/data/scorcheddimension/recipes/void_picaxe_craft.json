@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "scorcheddimension:lava_void_shard"
+    },
+    "1": {
+      "item": "scorcheddimension:lava_void_shard"
+    },
+    "2": {
+      "item": "scorcheddimension:lava_void_shard"
+    },
+    "4": {
+      "item": "scorcheddimension:void_spear"
+    },
+    "7": {
+      "item": "scorcheddimension:void_spear"
+    }
+  },
+  "result": {
+    "item": "scorcheddimension:elemental_picaxe",
+    "count": 1
+  }
+}

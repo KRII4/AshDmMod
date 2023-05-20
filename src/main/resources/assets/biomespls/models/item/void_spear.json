@@ -1,7 +1,0 @@
-{
-  "parent": "biomespls:custom/voidspear",
-  "textures": {
-    "0": "biomespls:blocks/spear",
-    "particle": "biomespls:items/bonestick"
-  }
-}

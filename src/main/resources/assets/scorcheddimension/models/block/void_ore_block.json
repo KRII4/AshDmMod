@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scorcheddimension:blocks/voidanim1",
+    "up": "scorcheddimension:blocks/voidanim1",
+    "north": "scorcheddimension:blocks/voidanim1",
+    "east": "scorcheddimension:blocks/voidanim1",
+    "south": "scorcheddimension:blocks/voidanim1",
+    "west": "scorcheddimension:blocks/voidanim1",
+    "particle": "scorcheddimension:blocks/voidanim1"
+  },
+  "render_type": "solid"
+}

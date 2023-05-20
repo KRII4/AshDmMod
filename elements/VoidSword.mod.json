@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "voidsword",
+    "customModelName": "Normal",
+    "name": "Void sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ScorchedBiome"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 14.0,
+    "attackSpeed": 1.0,
+    "enchantability": 19,
+    "damageVsEntity": 9.0,
+    "usageCount": 1760,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LavaVoidShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "VoidSwordBurn"
+    },
+    "onItemInUseTick": {
+      "name": "VoidItemsFlame"
+    }
+  }
+}

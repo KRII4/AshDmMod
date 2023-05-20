@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scorcheddimension:scorched_wood"
+    }
+  ],
+  "result": {
+    "item": "scorcheddimension:scorch_wood_no_flame",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "voidshovel2",
+    "customModelName": "Normal",
+    "name": "Void shovel",
+    "specialInfo": [
+      "Sneak to disable melting"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ScorchedBiome"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 5,
+    "efficiency": 14.0,
+    "attackSpeed": 1.0,
+    "enchantability": 19,
+    "damageVsEntity": 3.5,
+    "usageCount": 1760,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LavaVoidShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "VoidItemsFlame"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "VoidPicaxeSmelt"
+    }
+  }
+}

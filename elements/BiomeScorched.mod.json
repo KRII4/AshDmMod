@@ -39,7 +39,7 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:ashambient"
+      "value": ""
     },
     "moodSound": {
       "value": ""
@@ -68,12 +68,12 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": -1.0,
-      "max": 0.0
+      "min": 0.05,
+      "max": 0.45
     },
     "genWeirdness": {
       "min": -1.0,
-      "max": 0.5
+      "max": 0.0
     },
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "scorcheddimension:lava_void_shard"
+    },
+    "1": {
+      "item": "scorcheddimension:lava_void_shard"
+    },
+    "2": {
+      "item": "scorcheddimension:lava_void_shard"
+    },
+    "3": {
+      "item": "scorcheddimension:bone_stick"
+    },
+    "5": {
+      "item": "scorcheddimension:bone_stick"
+    }
+  },
+  "result": {
+    "item": "scorcheddimension:void_axe",
+    "count": 1
+  }
+}

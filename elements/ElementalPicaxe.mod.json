@@ -3,25 +3,37 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "elempicaxe",
+    "texture": "voidpicaxe",
     "customModelName": "Normal",
-    "name": "Elemental Picaxe",
-    "specialInfo": [],
+    "name": "Void picaxe",
+    "specialInfo": [
+      "Sneak to disable melting"
+    ],
     "creativeTab": {
       "value": "CUSTOM:ScorchedBiome"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "harvestLevel": 5,
+    "efficiency": 14.0,
+    "attackSpeed": 1.2,
+    "enchantability": 19,
+    "damageVsEntity": 7.0,
+    "usageCount": 1760,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
-    "immuneToFire": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LavaVoidShard"
+      }
+    ],
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "VoidItemsFlame"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "VoidPicaxeSmelt"
+    }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scorcheddimension:blocks/sgbnn",
+    "up": "scorcheddimension:blocks/sgbnn",
+    "north": "scorcheddimension:blocks/sgbnn",
+    "east": "scorcheddimension:blocks/sgbnn",
+    "south": "scorcheddimension:blocks/sgbnn",
+    "west": "scorcheddimension:blocks/sgbnn",
+    "particle": "scorcheddimension:blocks/sgbnn"
+  },
+  "render_type": "solid"
+}

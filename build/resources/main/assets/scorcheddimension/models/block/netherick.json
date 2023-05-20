@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scorcheddimension:blocks/portalblock",
+    "up": "scorcheddimension:blocks/portalblock",
+    "north": "scorcheddimension:blocks/portalblock",
+    "east": "scorcheddimension:blocks/portalblock",
+    "south": "scorcheddimension:blocks/portalblock",
+    "west": "scorcheddimension:blocks/portalblock",
+    "particle": "scorcheddimension:blocks/portalblock"
+  },
+  "render_type": "solid"
+}

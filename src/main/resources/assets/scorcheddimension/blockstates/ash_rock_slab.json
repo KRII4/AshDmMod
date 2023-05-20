@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "scorcheddimension:block/ash_rock_slab"
+    },
+    "type=top": {
+      "model": "scorcheddimension:block/ash_rock_slab_top"
+    },
+    "type=double": {
+      "model": "scorcheddimension:block/ash_rock_slab_full"
+    }
+  }
+}

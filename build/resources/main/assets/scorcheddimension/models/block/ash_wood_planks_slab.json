@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "scorcheddimension:blocks/ashplank",
+    "top": "scorcheddimension:blocks/ashplank",
+    "side": "scorcheddimension:blocks/ashplank"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "scorcheddimension:rocky_hills",
+    "scorcheddimension:biome_scorched"
+  ],
+  "spawners": {
+    "type": "scorcheddimension:night_oko_aggressive",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

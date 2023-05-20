@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scorcheddimension:blocks/rockyrocktor",
+    "up": "scorcheddimension:blocks/rockyrocktor",
+    "north": "scorcheddimension:blocks/rockyrock",
+    "east": "scorcheddimension:blocks/rockyrock",
+    "south": "scorcheddimension:blocks/rockyrock",
+    "west": "scorcheddimension:blocks/rockyrock",
+    "particle": "scorcheddimension:blocks/rockyrocktor"
+  },
+  "render_type": "solid"
+}

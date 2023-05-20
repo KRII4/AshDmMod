@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 14,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_BRICKS"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_BRICKS"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_BRICKS"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_BRICKS"
+      },
+      {
+        "value": "Items.BLAZE_ROD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Netherick"
+    },
+    "name": "portal_block_craft",
+    "namespace": "mod"
+  }
+}

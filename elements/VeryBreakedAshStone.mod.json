@@ -124,12 +124,15 @@
     "blocksToReplace": [
       {
         "value": "CUSTOM:BrokenAshStone"
+      },
+      {
+        "value": "CUSTOM:AshRock"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 27,
-    "frequencyOnChunk": 4,
-    "minGenerateHeight": 0,
+    "frequencyOnChunk": 20,
+    "minGenerateHeight": -64,
     "maxGenerateHeight": 255
   }
 }

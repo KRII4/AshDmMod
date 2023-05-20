@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scorcheddimension:blocks/ashcoal",
+    "up": "scorcheddimension:blocks/ashcoal",
+    "north": "scorcheddimension:blocks/ashcoal",
+    "east": "scorcheddimension:blocks/ashcoal",
+    "south": "scorcheddimension:blocks/ashcoal",
+    "west": "scorcheddimension:blocks/ashcoal",
+    "particle": "scorcheddimension:blocks/ashcoal"
+  },
+  "render_type": "solid"
+}

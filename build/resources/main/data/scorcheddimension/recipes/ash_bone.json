@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scorcheddimension:ashboneblock"
+    }
+  ],
+  "result": {
+    "item": "scorcheddimension:ashbone",
+    "count": 9
+  }
+}

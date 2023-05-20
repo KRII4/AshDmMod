@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scorcheddimension:blocks/dmgashenbricks",
+    "up": "scorcheddimension:blocks/dmgashenbricks",
+    "north": "scorcheddimension:blocks/dmgashenbricks",
+    "east": "scorcheddimension:blocks/dmgashenbricks",
+    "south": "scorcheddimension:blocks/dmgashenbricks",
+    "west": "scorcheddimension:blocks/dmgashenbricks",
+    "particle": "scorcheddimension:blocks/dmgashenbricks"
+  },
+  "render_type": "solid"
+}

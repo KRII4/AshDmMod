@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scorcheddimension:blocks/zarosashenstone",
+    "up": "scorcheddimension:blocks/zarosashenstone",
+    "north": "scorcheddimension:blocks/zarosashenstone",
+    "east": "scorcheddimension:blocks/zarosashenstone",
+    "south": "scorcheddimension:blocks/zarosashenstone",
+    "west": "scorcheddimension:blocks/zarosashenstone",
+    "particle": "scorcheddimension:blocks/zarosashenstone"
+  },
+  "render_type": "solid"
+}

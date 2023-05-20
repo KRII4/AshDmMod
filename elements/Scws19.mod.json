@@ -16,7 +16,11 @@
       "CUSTOM:ScorchedDimension"
     ],
     "restrictionBlocks": [],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BiomeScorched"
+      }
+    ],
     "ignoreBlocks": "AIR"
   }
 }

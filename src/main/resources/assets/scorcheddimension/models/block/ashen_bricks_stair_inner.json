@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "scorcheddimension:blocks/ashenbricks",
+    "top": "scorcheddimension:blocks/ashenbricks",
+    "side": "scorcheddimension:blocks/ashenbricks"
+  },
+  "render_type": "solid"
+}

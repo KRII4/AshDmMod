@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "scorcheddimension:block/scorched_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "scorcheddimension:block/scorched_dimension_portal_ns"
+    }
+  }
+}

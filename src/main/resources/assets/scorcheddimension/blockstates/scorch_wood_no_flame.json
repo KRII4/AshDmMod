@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "scorcheddimension:block/scorch_wood_no_flame",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "scorcheddimension:block/scorch_wood_no_flame"
+    },
+    "axis=z": {
+      "model": "scorcheddimension:block/scorch_wood_no_flame",
+      "x": 90
+    }
+  }
+}

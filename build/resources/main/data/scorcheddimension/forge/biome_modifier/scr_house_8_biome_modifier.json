@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "scorcheddimension:scr_house_8",
+  "step": "surface_structures"
+}

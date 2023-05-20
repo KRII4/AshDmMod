@@ -29,21 +29,21 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": "CUSTOM:Scorchedearth"
+      "value": "CUSTOM:Netherick"
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "SMOKE_NORMAL"
     },
-    "portalLuminance": 0,
+    "portalLuminance": 5,
     "portalSound": {
-      "value": ""
+      "value": "block.fire.ambient"
     },
-    "igniterName": "Scorched Dimension Portal Igniter",
+    "igniterName": "Scorched torch",
     "igniterTab": {
       "value": "CUSTOM:ScorchedBiome"
     },
     "texture": "at",
-    "portalTexture": "stn",
+    "portalTexture": "pr",
     "enablePortal": true
   }
 }

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "scorcheddimension:ashbone"
+    },
+    "1": {
+      "item": "scorcheddimension:ashbone"
+    },
+    "2": {
+      "item": "scorcheddimension:ashbone"
+    },
+    "3": {
+      "item": "scorcheddimension:ashbone"
+    },
+    "4": {
+      "item": "scorcheddimension:ashbone"
+    },
+    "5": {
+      "item": "scorcheddimension:ashbone"
+    },
+    "6": {
+      "item": "scorcheddimension:ashbone"
+    },
+    "7": {
+      "item": "scorcheddimension:ashbone"
+    },
+    "8": {
+      "item": "scorcheddimension:ashbone"
+    }
+  },
+  "result": {
+    "item": "scorcheddimension:ashboneblock",
+    "count": 1
+  }
+}

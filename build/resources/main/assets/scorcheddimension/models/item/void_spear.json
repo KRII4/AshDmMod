@@ -1,0 +1,7 @@
+{
+  "parent": "scorcheddimension:custom/voidspear",
+  "textures": {
+    "0": "scorcheddimension:blocks/spear",
+    "particle": "scorcheddimension:items/bonestick"
+  }
+}

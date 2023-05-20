@@ -1,0 +1,2681 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ashgrass",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashgrass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/AshgrassBlock.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ashgrass.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ashgrass.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ashgrass.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ScorchedBiome",
+      "type": "tab",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_biome",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Scorchedearth",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorchedearth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ores/ScorchedearthFeature.java",
+          "src/main/resources/assets/scorcheddimension/models/item/scorchedearth.json",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scorchedearth_biome_modifier.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/scorchedearth.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/ScorchedearthBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/block/scorchedearth.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BiomeScorched",
+      "type": "biome",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome_scorched",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/biome/BiomeScorchedBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "AshRock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_rock.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_rock.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshRockBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_rock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Ashwater",
+      "type": "fluid",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashwater",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/resources/assets/scorcheddimension/blockstates/ashwater.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ashwater_bucket.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshwaterBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/block/ashwater.json",
+          "src/main/java/net/mcreator/scorcheddimension/fluid/types/AshwaterFluidType.java",
+          "src/main/java/net/mcreator/scorcheddimension/fluid/AshwaterFluid.java",
+          "src/main/java/net/mcreator/scorcheddimension/item/AshwaterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ScorchedDimension",
+      "type": "dimension",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_dimension",
+      "metadata": {
+        "ep": true,
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/teleporter/ScorchedDimensionPortalShape.java",
+          "src/main/resources/assets/scorcheddimension/models/block/scorched_dimension_portal_ew.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/ScorchedDimensionPortalBlock.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/scorched_dimension_portal.json",
+          "src/main/resources/assets/scorcheddimension/models/item/scorched_dimension.json",
+          "src/main/java/net/mcreator/scorcheddimension/item/ScorchedDimensionItem.java",
+          "src/main/resources/data/scorcheddimension/dimension_type/scorched_dimension.json",
+          "src/main/resources/data/scorcheddimension/dimension/scorched_dimension.json",
+          "src/main/resources/assets/scorcheddimension/models/block/scorched_dimension_portal_ns.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/dimension/ScorchedDimensionDimension.java",
+          "src/main/java/net/mcreator/scorcheddimension/world/teleporter/ScorchedDimensionTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "ScorchedWood",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/ScorchedWoodBlock.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/scorched_wood.json",
+          "src/main/resources/assets/scorcheddimension/models/item/scorched_wood.json",
+          "src/main/resources/assets/scorcheddimension/models/block/scorched_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshCoal",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_coal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/AshCoalBlock.java",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ores/AshCoalFeature.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_coal.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_coal.json",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/ash_coal_biome_modifier.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_coal.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Element",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/ElementItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/element.json"
+        ]
+      }
+    },
+    {
+      "name": "BrokenAshStone",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_ash_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ores/BrokenAshStoneFeature.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/broken_ash_stone_biome_modifier.json",
+          "src/main/resources/assets/scorcheddimension/models/block/broken_ash_stone.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/BrokenAshStoneBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/item/broken_ash_stone.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/broken_ash_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ElementalShard",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elemental_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/ElementalShardItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/elemental_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "VeryBreakedAshStone",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_breaked_ash_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/very_breaked_ash_stone.json",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/very_breaked_ash_stone_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ores/VeryBreakedAshStoneFeature.java",
+          "src/main/java/net/mcreator/scorcheddimension/block/VeryBreakedAshStoneBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/block/very_breaked_ash_stone.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/very_breaked_ash_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ThrowingTorchKoghdaSnariadPriziemliaietsiaNaBlok",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_torch_koghda_snariad_priziemliaietsia_na_blok",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/ThrowingTorchKoghdaSnariadPriziemliaietsiaNaBlokProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThrowingTorchKoghdaSnariadPopadaietVSushchnost",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_torch_koghda_snariad_popadaiet_v_sushchnost",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/ThrowingTorchKoghdaSnariadPopadaietVSushchnostProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThrowingTorch",
+      "type": "rangeditem",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_torch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/entity/ThrowingTorchEntity.java",
+          "src/main/resources/assets/scorcheddimension/models/item/throwing_torch.json",
+          "src/main/java/net/mcreator/scorcheddimension/item/ThrowingTorchItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Scws1",
+      "type": "structure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_1_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws1Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws2",
+      "type": "structure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws2Feature.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws3",
+      "type": "structure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_3_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws3Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws4",
+      "type": "structure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_4_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws4Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws5",
+      "type": "structure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_5_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws5Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws6",
+      "type": "structure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws6Feature.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_6_biome_modifier.json"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws7",
+      "type": "structure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_7_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws7Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws9",
+      "type": "structure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_9_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws9Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws10",
+      "type": "structure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_10",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_10_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws10Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws11",
+      "type": "structure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws11Feature.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_11_biome_modifier.json"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws12",
+      "type": "structure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_12_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws12Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws13",
+      "type": "structure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_13",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_13_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws13Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws14",
+      "type": "structure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_14_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws14Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws16",
+      "type": "structure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_16",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws16Feature.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_16_biome_modifier.json"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws17",
+      "type": "structure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_17",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_17_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws17Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws18",
+      "type": "structure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_18",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_18_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws18Feature.java"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "Scws19",
+      "type": "structure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scws_19",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/Scws19Feature.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scws_19_biome_modifier.json"
+        ]
+      },
+      "path": "~/WoodGener"
+    },
+    {
+      "name": "ElemDeathOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elem_death_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/ElemDeathOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElemDeath",
+      "type": "potioneffect",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elem_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/potion/ElemDeathMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ElementItemInHandTick",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "element_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/ElementItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScorchWoodNoFlame",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorch_wood_no_flame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/scorch_wood_no_flame.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/ScorchWoodNoFlameBlock.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/scorch_wood_no_flame.json",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scorch_wood_no_flame_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ores/ScorchWoodNoFlameFeature.java",
+          "src/main/resources/assets/scorcheddimension/models/block/scorch_wood_no_flame.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshSoulHeart",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_soul_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/AshSoulHeartItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_soul_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "Slimefollow",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimefollow",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/SlimefollowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlimePanic",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_panic",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/SlimePanicProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RockyRock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocky_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/rocky_rock.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/rocky_rock.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/RockyRockBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/block/rocky_rock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RockyHills",
+      "type": "biome",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocky_hills",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/biome/RockyHillsBiome.java"
+        ]
+      }
+    },
+    {
+      "name": "LavaSlime",
+      "type": "animatedentity",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/entity/layer/LavaSlimeLayer.java",
+          "src/main/resources/assets/scorcheddimension/models/item/lava_slime_spawn_egg.json",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/lava_slime_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/entity/LavaSlimeEntity.java",
+          "src/main/java/net/mcreator/scorcheddimension/client/renderer/LavaSlimeRenderer.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/model/LavaSlimeModel.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "AshenSoul",
+      "type": "animatedentity",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/entity/AshenSoulEntity.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ashen_soul_spawn_egg.json",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/ashen_soul_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/client/renderer/AshenSoulRenderer.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/model/AshenSoulModel.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/layer/AshenSoulLayer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Ghost",
+      "type": "animatedentity",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/ghost_spawn_egg.json",
+          "src/main/java/net/mcreator/scorcheddimension/entity/layer/GhostLayer.java",
+          "src/main/java/net/mcreator/scorcheddimension/client/renderer/GhostRenderer.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/model/GhostModel.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/ghost_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/entity/GhostEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "AshenSoulDropp",
+      "type": "loottable",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_soul_dropp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/loot_tables/entities/ashen_soul.json"
+        ]
+      }
+    },
+    {
+      "name": "AshenSkeleton",
+      "type": "animatedentity",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_skeleton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/entity/model/AshenSkeletonModel.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/AshenSkeletonEntity.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ashen_skeleton_spawn_egg.json",
+          "src/main/java/net/mcreator/scorcheddimension/client/renderer/AshenSkeletonRenderer.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/layer/AshenSkeletonLayer.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/ashen_skeleton_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Quaddy",
+      "type": "animatedentity",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quaddy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/entity/layer/QuaddyLayer.java",
+          "src/main/resources/assets/scorcheddimension/models/item/quaddy_spawn_egg.json",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/quaddy_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/entity/QuaddyEntity.java",
+          "src/main/java/net/mcreator/scorcheddimension/client/renderer/QuaddyRenderer.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/model/QuaddyModel.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Ashbone",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashbone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/ashbone.json",
+          "src/main/java/net/mcreator/scorcheddimension/item/AshboneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AshenSkeletonDrop",
+      "type": "loottable",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_skeleton_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/loot_tables/entities/ashen_skeleton.json"
+        ]
+      }
+    },
+    {
+      "name": "AshWoodPlanks",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/AshWoodPlanksBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_wood_planks.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_wood_planks.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_wood_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshPlanksCraft",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_planks_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/ash_planks.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "AshWoodCraft",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_wood_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/scorched_wood_extinguished.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "NightOkoAggressive",
+      "type": "animatedentity",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_oko_aggressive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/client/renderer/NightOkoAggressiveRenderer.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/model/NightOkoAggressiveModel.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/NightOkoAggressiveEntity.java",
+          "src/main/resources/assets/scorcheddimension/models/item/night_oko_aggressive_spawn_egg.json",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/night_oko_aggressive_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/entity/layer/NightOkoAggressiveLayer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Ashboneblock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashboneblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/AshboneblockBlock.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ashboneblock.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ashboneblock.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ashboneblock.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BoneStick",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/BoneStickItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/bone_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "AshBoneBlockCraft",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_bone_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/ash_bone_block.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "AshBonFrBlockCraft",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_bon_fr_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/ash_bone.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "BoneStickCraft",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_stick_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/bone_stick.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "AshenBricks",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/AshenBricksBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ashen_bricks.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ashen_bricks.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ashen_bricks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DamagedAshenBricks",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damaged_ashen_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/blockstates/damaged_ashen_bricks.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/DamagedAshenBricksBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/block/damaged_ashen_bricks.json",
+          "src/main/resources/assets/scorcheddimension/models/item/damaged_ashen_bricks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ZarosAshenStone",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zaros_ashen_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/zaros_ashen_stone.json",
+          "src/main/resources/assets/scorcheddimension/models/item/zaros_ashen_stone.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/zaros_ashen_stone.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/ZarosAshenStoneBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock1",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_1.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock1Block.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_1.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_1.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock2",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_2.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_2.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_2.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock2Block.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock3",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock3Block.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_3.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_3.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_3.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock4",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_4.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock4Block.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_4.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_4.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock5",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_5.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_5.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock5Block.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_5.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock6",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_6.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock6Block.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_6.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_6.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshCraftBlock11",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_craft_block_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/AshCraftBlock11Block.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_craft_block_11.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_craft_block_11.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_craft_block_11.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshCraftBlock12",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_craft_block_12",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ash_craft_block_12.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshCraftBlock12Block.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_craft_block_12.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_craft_block_12.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock21",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_21",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_21.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_21.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_21.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock21Block.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock22",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_22",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_22.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock22Block.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_22.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_22.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock23",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_23",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_23.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_23.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_23.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock23Block.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshHistoryBlock24",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_history_block_24",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_history_block_24.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshHistoryBlock24Block.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_history_block_24.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_history_block_24.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshCraftbBlock21",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_craftb_block_21",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ash_craftb_block_21.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshCraftbBlock21Block.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_craftb_block_21.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_craftb_block_21.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshCraftbBlock22",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_craftb_block_22",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_craftb_block_22.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_craftb_block_22.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshCraftbBlock22Block.java",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_craftb_block_22.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshCraftbBlock23",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_craftb_block_23",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/AshCraftbBlock23Block.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_craftb_block_23.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_craftb_block_23.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_craftb_block_23.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshCraftbBlock24",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_craftb_block_24",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ash_craftb_block_24.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshCraftbBlock24Block.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_craftb_block_24.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_craftb_block_24.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NightOko",
+      "type": "tag",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_oko",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/night_oko.json"
+        ]
+      }
+    },
+    {
+      "name": "AshSlime",
+      "type": "animatedentity",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_slime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/client/renderer/AshSlimeRenderer.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/layer/AshSlimeLayer.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/ash_slime_biome_modifier.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_slime_spawn_egg.json",
+          "src/main/java/net/mcreator/scorcheddimension/entity/model/AshSlimeModel.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/AshSlimeEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "LavaShard",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/lava_shard.json",
+          "src/main/java/net/mcreator/scorcheddimension/item/LavaShardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LavaSlimeLootTable",
+      "type": "loottable",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_slime_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/loot_tables/entities/lava_slime.json"
+        ]
+      }
+    },
+    {
+      "name": "ElementalPicaxe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elemental_picaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/elemental_picaxe.json",
+          "src/main/java/net/mcreator/scorcheddimension/item/ElementalPicaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VoidSpear",
+      "type": "rangeditem",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/VoidSpearItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/void_spear.json",
+          "src/main/java/net/mcreator/scorcheddimension/entity/VoidSpearEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VoidSpearProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_spear_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/VoidSpearProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidSpearProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_spear_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/VoidSpearProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidPicaxeSmelt",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_picaxe_smelt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/VoidPicaxeSmeltProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidOreBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_ore_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/VoidOreBlockBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/item/void_ore_block.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/void_ore_block.json",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/void_ore_block_biome_modifier.json",
+          "src/main/resources/assets/scorcheddimension/models/block/void_ore_block.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ores/VoidOreBlockFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VoidSwordBurn",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_sword_burn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/VoidSwordBurnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidSword",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/VoidSwordItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/void_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaVoidShard",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_void_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/LavaVoidShardItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/lava_void_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaVoidShardCraft",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_void_shard_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/lava_void_shard_craft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "VoidPicaxeCraft",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_picaxe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/void_picaxe_craft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "VoidSwordCraft",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_sword_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/void_sword_craft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "VoidItemsFlame",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_items_flame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/VoidItemsFlameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidAxe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/VoidAxeItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/void_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "LootChest1",
+      "type": "loottable",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_chest_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/loot_chest_1.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidShovel",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/VoidShovelItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/void_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidHoe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/item/VoidHoeItem.java",
+          "src/main/resources/assets/scorcheddimension/models/item/void_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "VoidAxeCraft",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_axe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/void_axe_craft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "VoidShovelCraft",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_shovel_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/void_shovel_craft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "VoidHoeCraft",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_hoe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/void_hoe_craft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "ScorchedHouse1",
+      "type": "structure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorched_house_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scorched_house_1_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ScorchedHouse1Feature.java"
+        ]
+      },
+      "path": "~/ScrHouses"
+    },
+    {
+      "name": "ScrHouse2",
+      "type": "structure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scr_house_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ScrHouse2Feature.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scr_house_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScrHouses"
+    },
+    {
+      "name": "Loot2",
+      "type": "loottable",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/loot_2.json"
+        ]
+      }
+    },
+    {
+      "name": "ScrHouse3",
+      "type": "structure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scr_house_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scr_house_3_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ScrHouse3Feature.java"
+        ]
+      },
+      "path": "~/ScrHouses"
+    },
+    {
+      "name": "ScrHouse4",
+      "type": "structure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scr_house_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ScrHouse4Feature.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scr_house_4_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScrHouses"
+    },
+    {
+      "name": "ScrHouse5",
+      "type": "structure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scr_house_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scr_house_5_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ScrHouse5Feature.java"
+        ]
+      },
+      "path": "~/ScrHouses"
+    },
+    {
+      "name": "ScrHouse6",
+      "type": "structure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scr_house_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scr_house_6_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ScrHouse6Feature.java"
+        ]
+      },
+      "path": "~/ScrHouses"
+    },
+    {
+      "name": "ScrHouse7",
+      "type": "structure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scr_house_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ScrHouse7Feature.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scr_house_7_biome_modifier.json"
+        ]
+      },
+      "path": "~/ScrHouses"
+    },
+    {
+      "name": "ScrHouse8",
+      "type": "structure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scr_house_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scr_house_8_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ScrHouse8Feature.java"
+        ]
+      },
+      "path": "~/ScrHouses"
+    },
+    {
+      "name": "ScrHouse9",
+      "type": "structure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scr_house_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/scr_house_9_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/world/features/ScrHouse9Feature.java"
+        ]
+      },
+      "path": "~/ScrHouses"
+    },
+    {
+      "name": "ThrowingTorchCraft",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "throwing_torch_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/throwing_torch_craft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "Netherick",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/item/netherick.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/netherick.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/NetherickBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/block/netherick.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PortalBlockCraft",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/portal_block_craft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "AshenTorchCraft",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_torch_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/scorcheddimension/recipes/ashen_torch_craft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "LavaSlimeCollide",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_slime_collide",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/LavaSlimeCollideProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AshWoodPlanksSteps",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_wood_planks_steps",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ash_wood_planks_steps.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshWoodPlanksStepsBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_wood_planks_steps.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_wood_planks_steps_outer.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_wood_planks_steps_inner.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_wood_planks_steps.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshWoodPlanksSlab",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_wood_planks_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/block/AshWoodPlanksSlabBlock.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_wood_planks_slab.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_wood_planks_slab.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_wood_planks_slab_full.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_wood_planks_slab.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_wood_planks_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshRockSlab",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_rock_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ash_rock_slab.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_rock_slab_full.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_rock_slab_top.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_rock_slab.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshRockSlabBlock.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_rock_slab.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshRockStair",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_rock_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ash_rock_stair_inner.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_rock_stair_outer.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshRockStairBlock.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ash_rock_stair.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ash_rock_stair.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ash_rock_stair.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshenBicksStair",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_bricks_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ashen_bricks_stair.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ashen_bricks_stair_outer.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ashen_bricks_stair.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshenBicksStairBlock.java",
+          "src/main/resources/assets/scorcheddimension/blockstates/ashen_bricks_stair.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ashen_bricks_stair_inner.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AshenBricksSlabs",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashen_bricks_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/ashen_bricks_slabs_top.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/ashen_bricks_slabs.json",
+          "src/main/resources/assets/scorcheddimension/models/item/ashen_bricks_slabs.json",
+          "src/main/resources/assets/scorcheddimension/models/block/ashen_bricks_slabs_full.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/AshenBricksSlabsBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/block/ashen_bricks_slabs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DamagedAshenBricksSlabs",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damaged_ashen_bricks_slabs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/damaged_ashen_bricks_slabs_full.json",
+          "src/main/resources/assets/scorcheddimension/models/item/damaged_ashen_bricks_slabs.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/damaged_ashen_bricks_slabs.json",
+          "src/main/resources/assets/scorcheddimension/models/block/damaged_ashen_bricks_slabs_top.json",
+          "src/main/resources/assets/scorcheddimension/models/block/damaged_ashen_bricks_slabs.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/DamagedAshenBricksSlabsBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DamagedAshenBricksStairs",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damaged_ashen_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scorcheddimension/models/block/damaged_ashen_bricks_stairs.json",
+          "src/main/resources/assets/scorcheddimension/models/block/damaged_ashen_bricks_stairs_inner.json",
+          "src/main/java/net/mcreator/scorcheddimension/block/DamagedAshenBricksStairsBlock.java",
+          "src/main/resources/assets/scorcheddimension/models/block/damaged_ashen_bricks_stairs_outer.json",
+          "src/main/resources/assets/scorcheddimension/models/item/damaged_ashen_bricks_stairs.json",
+          "src/main/resources/assets/scorcheddimension/blockstates/damaged_ashen_bricks_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Shechel",
+      "type": "animatedentity",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shechel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/client/renderer/ShechelRenderer.java",
+          "src/main/resources/assets/scorcheddimension/models/item/shechel_spawn_egg.json",
+          "src/main/java/net/mcreator/scorcheddimension/entity/model/ShechelModel.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/ShechelEntity.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/shechel_biome_modifier.json",
+          "src/main/java/net/mcreator/scorcheddimension/entity/layer/ShechelLayer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "ShechelEntityIsHurt",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shechel_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/ShechelEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShechelRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shechel_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/ShechelRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShechelOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shechel_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/ShechelOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "A",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/AProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShechelJump",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shechel_jump",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/ShechelJumpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "ashambient",
+      "files": [
+        "soundtrack1"
+      ],
+      "category": "ambient",
+      "subtitle": "ffffe"
+    },
+    {
+      "name": "okonighthurt",
+      "files": [
+        "okonighthurt",
+        "okonighthurt2",
+        "okonighthurt3",
+        "okonighthurt4"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "okonightidle",
+      "files": [
+        "okonightidle",
+        "okonightidle2",
+        "okonightidle3",
+        "okonightidle4",
+        "okonightidle5",
+        "okonightidle6",
+        "okonightidle7",
+        "okonightidle8",
+        "okonightidle9",
+        "okonightidle10",
+        "okonightidle11"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "slimejump4",
+      "files": [
+        "slimejump4"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "okonightdeath",
+      "files": [
+        "okonightdeath",
+        "okonightdeath2",
+        "okonightdeath3"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "okonightsteps",
+      "files": [
+        "okonightstep",
+        "okonightstep2",
+        "okonightstep3",
+        "okonightstep4",
+        "okonightstep5",
+        "okonightstep6"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "okonightattack",
+      "files": [
+        "nightokoattack"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "subtitles.slimejump4": "",
+      "block.scorcheddimension.damaged_ashen_bricks": "Damaged Ashen Bricks",
+      "block.scorcheddimension.netherick": "Netherick",
+      "block.biomespls.damaged_ashen_bricks": "Потрескавниеся пепельные кирпичи",
+      "block.scorcheddimension.ash_history_block_5": "Ash Rock",
+      "block.scorcheddimension.ash_history_block_4": "Ash Rock",
+      "block.scorcheddimension.scorchedearth": "Scorched earth",
+      "block.scorcheddimension.ash_history_block_3": "Ash Rock",
+      "block.scorcheddimension.damaged_ashen_bricks_stairs": "Damaged Ashen Bricks",
+      "block.scorcheddimension.ash_history_block_2": "Ash Rock",
+      "block.scorcheddimension.ash_history_block_1": "Ash Rock",
+      "item.biomespls.lava_slime_spawn_egg": "Яйцо призыва лавового слайма",
+      "block.biomespls.ash_wood_planks_slab": "Полублок из пепельного дерева",
+      "item.scorcheddimension.shechel_spawn_egg": "Shechel Spawn Egg",
+      "item.biomespls.void_shovel": "Пустотная лопата",
+      "block.scorcheddimension.ash_history_block_6": "Ash Rock",
+      "block.biomespls.void_ore_block": "Блок пустотной руды",
+      "effect.biomespls.elem_death": "Элементальная смерть",
+      "block.biomespls.very_breaked_ash_stone": "Сильно треснувший выжженный камень",
+      "item.biomespls.night_oko_aggressive_spawn_egg": "Яйцо призыва ночного Ока",
+      "block.biomespls.ash_craftb_block_24": "Наскальный рисунок 4 4",
+      "entity.scorcheddimension.ashen_soul": "Ashen soul",
+      "block.biomespls.ash_craftb_block_23": "Наскальный рисунок 4 3",
+      "entity.scorcheddimension.ash_slime": "Ashen slime",
+      "item.scorcheddimension.void_axe": "Void Axe",
+      "block.biomespls.ash_craftb_block_22": "Наскальный рисунок 4 2",
+      "block.biomespls.ash_craftb_block_21": "Наскальный рисунок 4 1",
+      "block.scorcheddimension.ash_rock_slab": "Ash Rock",
+      "block.biomespls.ashwater": "Пепловода",
+      "block.biomespls.ashboneblock": "Блок горелых костей",
+      "block.biomespls.ash_history_block_22": "Наскальный рисунок 2 2",
+      "item.biomespls.ashen_skeleton_spawn_egg": "Яйцо призыва пепельного склета",
+      "block.biomespls.ash_history_block_21": "Наскальный рисунок 2 1",
+      "block.biomespls.ash_history_block_24": "Наскальный рисунок 2 4",
+      "block.biomespls.ash_history_block_23": "Наскальный рисунок 2 3",
+      "block.biomespls.scorch_wood_no_flame": "Прогоревшее дерево",
+      "block.biomespls.ash_craft_block_11": "Наскальный рисунок 3 1",
+      "block.biomespls.ash_craft_block_12": "Наскальный рисунок 3 2",
+      "item.biomespls.quaddy_spawn_egg": "Яйцо призыва квадди",
+      "subtitles.okonighthurt": "",
+      "item.biomespls.ashbone": "Горелая кость",
+      "block.biomespls.scorched_wood": "Выжженное дерево",
+      "block.scorcheddimension.broken_ash_stone": "Broken Ash Stone",
+      "item.biomespls.ghost_spawn_egg": "Яйцо призыва призрака",
+      "item.scorcheddimension.lava_void_shard": "Lava void shard",
+      "item.biomespls.throwing_torch": "Метательный факел",
+      "block.biomespls.netherick": "Незерик",
+      "entity.biomespls.quaddy": "Квадди",
+      "item.scorcheddimension.ashen_skeleton_spawn_egg": "Ashen skeleton Spawn Egg",
+      "block.scorcheddimension.ashen_bricks_stair": "Ashen Bricks",
+      "subtitles.okonightsteps": "",
+      "item.scorcheddimension.quaddy_spawn_egg": "Quaddy Spawn Egg",
+      "fluid.biomespls.ashwater": "Пепловода",
+      "block.biomespls.ashen_bricks": "Пепельные кирпичи",
+      "item.biomespls.void_axe": "Пустотный топор",
+      "block.scorcheddimension.void_ore_block": "Void ore block",
+      "block.biomespls.broken_ash_stone": "Треснувший выжженный камень",
+      "block.biomespls.ashgrass": "Сожженая трава",
+      "block.scorcheddimension.ash_craftb_block_21": "Ash Rock",
+      "block.biomespls.ash_rock": "Выжженный камень",
+      "item.scorcheddimension.ashwater_bucket": "Ashwater Bucket",
+      "block.scorcheddimension.ash_craftb_block_22": "Ash Rock",
+      "block.scorcheddimension.ash_craftb_block_23": "Ash Rock",
+      "biome.biomespls.biome_scorched": "Выжженый биом",
+      "block.scorcheddimension.ashgrass": "Scorched grass",
+      "item.biomespls.void_hoe": "Пустотная мотыга",
+      "block.scorcheddimension.ash_wood_planks_slab": "Ash Wood Planks",
+      "block.scorcheddimension.ash_craftb_block_24": "Ash Rock",
+      "biome.scorcheddimension.rocky_hills": "Rocky Hills",
+      "block.scorcheddimension.ashen_bricks": "Ashen Bricks",
+      "block.biomespls.ashen_bricks_slabs": "Полублок из пепельных кирпичей",
+      "item.scorcheddimension.void_sword": "Void sword",
+      "item.biomespls.scorched_dimension": "Пепельный факел",
+      "item.biomespls.lava_shard": "Осколок лавы",
+      "block.scorcheddimension.ash_rock": "Ash Rock",
+      "block.scorcheddimension.scorch_wood_no_flame": "Burnt - out tree",
+      "entity.biomespls.ashen_soul": "Пепельная душа",
+      "item.scorcheddimension.lava_slime_spawn_egg": "Lava slime Spawn Egg",
+      "block.biomespls.ash_wood_planks_steps": "Ступеньки из пепельных досок",
+      "block.biomespls.zaros_ashen_stone": "Замшелый пепельный кирпич",
+      "item.biomespls.bone_stick": "Костяная палка",
+      "block.scorcheddimension.rocky_rock": "Rocky Rock",
+      "subtitles.ashambient": "ffffe",
+      "item.scorcheddimension.ash_soul_heart": "Ash Soul Heart",
+      "item.biomespls.lava_void_shard": "Осколок пустото-лавы",
+      "block.biomespls.damaged_ashen_bricks_stairs": "Полублок потрескавшихся пепельных кирпичей",
+      "block.biomespls.ash_rock_slab": "Полублок пепельного камня",
+      "block.scorcheddimension.damaged_ashen_bricks_slabs": "Damaged Ashen Bricks",
+      "block.biomespls.ashen_bricks_stair": "Мтупеньки из пепельного кирпича",
+      "item.scorcheddimension.ghost_spawn_egg": "Ghost Spawn Egg",
+      "entity.biomespls.ashen_skeleton": "Пепельный скелет",
+      "entity.scorcheddimension.quaddy": "Quaddy",
+      "subtitles.nightokos": "",
+      "item.biomespls.ashwater_bucket": "Ведро пепловоды",
+      "biome.scorcheddimension.biome_scorched": "Scorched biome",
+      "block.scorcheddimension.scorched_wood": "Scorched Wood",
+      "block.scorcheddimension.ash_wood_planks_steps": "Ash Wood Planks",
+      "block.scorcheddimension.ashen_bricks_slabs": "Ashen Bricks",
+      "item.scorcheddimension.void_spear": "Void Spear",
+      "block.biomespls.rocky_rock": "Плотный камень",
+      "item.biomespls.elemental_shard": "Пустотный осколок",
+      "item.scorcheddimension.ashbone": "Ashbone",
+      "block.scorcheddimension.ashwater": "Ash water",
+      "subtitles.okonightattack": "",
+      "item.scorcheddimension.lava_shard": "Lava Shard",
+      "block.biomespls.scorchedearth": "Выжженная земля",
+      "block.scorcheddimension.ash_coal": "Ash Coal",
+      "item.scorcheddimension.throwing_torch": "Throwing Torch",
+      "itemGroup.tabscorched_biome": "Выжженное измерение",
+      "effect.scorcheddimension.elem_death": "Elemental death",
+      "item.scorcheddimension.ash_slime_spawn_egg": "Ashen slime Spawn Egg",
+      "fluid.scorcheddimension.ashwater": "Ash water",
+      "block.biomespls.ash_coal": "Пепельный уголь",
+      "biome.biomespls.rocky_hills": "Каменные высоты",
+      "block.scorcheddimension.very_breaked_ash_stone": "Very Breaked Ash Stone",
+      "block.scorcheddimension.ash_wood_planks": "Ash Wood Planks",
+      "item.scorcheddimension.bone_stick": "Bone stick",
+      "item.scorcheddimension.void_shovel": "Void shovel",
+      "item.biomespls.elemental_picaxe": "Пустотная кирка",
+      "item.scorcheddimension.elemental_picaxe": "Void picaxe",
+      "item.biomespls.void_sword": "Пустотный меч",
+      "subtitles.ashost": "",
+      "subtitles.okonightdeath": "",
+      "block.biomespls.damaged_ashen_bricks_slabs": "Полублок потрескавшихся пепельных кирпичей",
+      "block.scorcheddimension.zaros_ashen_stone": "Zaros Ashen Stone",
+      "item.biomespls.ash_slime_spawn_egg": "Яйцо призыва пепельного слайма",
+      "entity.biomespls.lava_slime": "Лавовый слайм",
+      "item.scorcheddimension.element": "Element",
+      "item.scorcheddimension.ashen_soul_spawn_egg": "Ashen soul Spawn Egg",
+      "block.scorcheddimension.ash_craft_block_12": "Ash Rock",
+      "block.scorcheddimension.ash_craft_block_11": "Ash Rock",
+      "item.biomespls.element": "Элемент",
+      "item.biomespls.void_spear": "Пустотное копье",
+      "item.scorcheddimension.scorched_dimension": "Scorched torch",
+      "entity.scorcheddimension.shechel": "Shechel",
+      "block.biomespls.ash_rock_stair": "Ступеньки из пепельного камня",
+      "entity.scorcheddimension.ghost": "Ghost",
+      "subtitles.okonightidle": "",
+      "block.scorcheddimension.ash_history_block_24": "Ash Rock",
+      "item.scorcheddimension.void_hoe": "Void Hoe",
+      "entity.biomespls.night_oko_aggressive": "Ночное Око",
+      "block.biomespls.ash_wood_planks": "Доски выжженного дерева",
+      "entity.scorcheddimension.ashen_skeleton": "Ashen skeleton",
+      "item.biomespls.ashen_soul_spawn_egg": "Яйцо призыва пепельной души",
+      "entity.biomespls.ash_slime": "Пепельный слайм",
+      "entity.scorcheddimension.lava_slime": "Lava slime",
+      "block.biomespls.ash_history_block_6": "Наскальный рисунок 1 6",
+      "block.biomespls.ash_history_block_5": "Наскальный рисунок 1 5",
+      "block.biomespls.ash_history_block_4": "Наскальный рисунок 1 4",
+      "item.scorcheddimension.elemental_shard": "Void hards",
+      "block.scorcheddimension.ash_history_block_23": "Ash Rock",
+      "entity.biomespls.ghost": "Призрак",
+      "block.biomespls.ash_history_block_3": "Наскальный рисунок 1 3",
+      "block.scorcheddimension.ash_history_block_22": "Ash Rock",
+      "block.biomespls.ash_history_block_2": "Наскальный рисунок 1 2",
+      "entity.scorcheddimension.night_oko_aggressive": "Night Oko",
+      "block.scorcheddimension.ashboneblock": "Ash bone block",
+      "block.scorcheddimension.ash_history_block_21": "Ash Rock",
+      "block.scorcheddimension.ash_rock_stair": "Ash Rock",
+      "item.biomespls.ash_soul_heart": "Сердце пепельной души",
+      "block.biomespls.ash_history_block_1": "Наскальный рисунок 1 1",
+      "item.scorcheddimension.night_oko_aggressive_spawn_egg": "Night Oko Spawn Egg"
+    },
+    "en_us": {
+      "subtitles.slimejump4": "",
+      "block.scorcheddimension.damaged_ashen_bricks": "Damaged Ashen Bricks",
+      "block.scorcheddimension.netherick": "Netherick",
+      "block.biomespls.damaged_ashen_bricks": "Damaged Ashen Bricks",
+      "block.scorcheddimension.ash_history_block_5": "Ash Rock",
+      "block.scorcheddimension.ash_history_block_4": "Ash Rock",
+      "block.scorcheddimension.scorchedearth": "Scorched earth",
+      "block.scorcheddimension.ash_history_block_3": "Ash Rock",
+      "block.scorcheddimension.damaged_ashen_bricks_stairs": "Damaged Ashen Bricks",
+      "block.scorcheddimension.ash_history_block_2": "Ash Rock",
+      "block.scorcheddimension.ash_history_block_1": "Ash Rock",
+      "item.biomespls.lava_slime_spawn_egg": "Lava slime Spawn Egg",
+      "block.biomespls.ash_wood_planks_slab": "Ash Wood plank slab",
+      "item.scorcheddimension.shechel_spawn_egg": "Shechel Spawn Egg",
+      "item.biomespls.void_shovel": "Void shovel",
+      "block.scorcheddimension.ash_history_block_6": "Ash Rock",
+      "block.biomespls.void_ore_block": "Void ore block",
+      "effect.biomespls.elem_death": "Elemental death",
+      "block.biomespls.very_breaked_ash_stone": "Very Breaked Ash Stone",
+      "item.biomespls.night_oko_aggressive_spawn_egg": "Night Oko Spawn Egg",
+      "block.biomespls.ash_craftb_block_24": "Rock art 4 4",
+      "entity.scorcheddimension.ashen_soul": "Ashen soul",
+      "block.biomespls.ash_craftb_block_23": "Rock art 4 3",
+      "entity.scorcheddimension.ash_slime": "Ashen slime",
+      "item.scorcheddimension.void_axe": "Void Axe",
+      "block.biomespls.ash_craftb_block_22": "Rock art 4 2",
+      "block.biomespls.ash_craftb_block_21": "Rock art 4 1",
+      "block.scorcheddimension.ash_rock_slab": "Ash Rock",
+      "block.biomespls.ashwater": "Ash water",
+      "block.biomespls.ashboneblock": "Ash bone block",
+      "block.biomespls.ash_history_block_22": "Rock art 2 2",
+      "item.biomespls.ashen_skeleton_spawn_egg": "Ashen skeleton Spawn Egg",
+      "block.biomespls.ash_history_block_21": "Rock art 2 1",
+      "block.biomespls.ash_history_block_24": "Rock art 2 4",
+      "block.biomespls.ash_history_block_23": "Rock art 2 3",
+      "block.biomespls.scorch_wood_no_flame": "Burnt - out tree",
+      "block.biomespls.ash_craft_block_11": "Rock art 3 1",
+      "block.biomespls.ash_craft_block_12": "Rock art 3 2",
+      "item.biomespls.quaddy_spawn_egg": "Quaddy Spawn Egg",
+      "subtitles.okonighthurt": "",
+      "item.biomespls.ashbone": "Ashbone",
+      "block.biomespls.scorched_wood": "Scorched Wood",
+      "block.scorcheddimension.broken_ash_stone": "Broken Ash Stone",
+      "item.biomespls.ghost_spawn_egg": "Ghost Spawn Egg",
+      "item.scorcheddimension.lava_void_shard": "Lava void shard",
+      "item.biomespls.throwing_torch": "Throwing Torch",
+      "block.biomespls.netherick": "Netherick",
+      "entity.biomespls.quaddy": "Quaddy",
+      "item.scorcheddimension.ashen_skeleton_spawn_egg": "Ashen skeleton Spawn Egg",
+      "block.scorcheddimension.ashen_bricks_stair": "Ashen Bricks",
+      "subtitles.okonightsteps": "",
+      "item.scorcheddimension.quaddy_spawn_egg": "Quaddy Spawn Egg",
+      "fluid.biomespls.ashwater": "Ash water",
+      "block.biomespls.ashen_bricks": "Ashen Bricks",
+      "item.biomespls.void_axe": "Void Axe",
+      "block.scorcheddimension.void_ore_block": "Void ore block",
+      "block.biomespls.broken_ash_stone": "Broken Ash Stone",
+      "block.biomespls.ashgrass": "Scorched grass",
+      "block.scorcheddimension.ash_craftb_block_21": "Ash Rock",
+      "block.biomespls.ash_rock": "Ash Rock",
+      "item.scorcheddimension.ashwater_bucket": "Ashwater Bucket",
+      "block.scorcheddimension.ash_craftb_block_22": "Ash Rock",
+      "block.scorcheddimension.ash_craftb_block_23": "Ash Rock",
+      "biome.biomespls.biome_scorched": "Scorched biome",
+      "block.scorcheddimension.ashgrass": "Scorched grass",
+      "item.biomespls.void_hoe": "Void Hoe",
+      "block.scorcheddimension.ash_wood_planks_slab": "Ash Wood Planks",
+      "block.scorcheddimension.ash_craftb_block_24": "Ash Rock",
+      "biome.scorcheddimension.rocky_hills": "Rocky Hills",
+      "block.scorcheddimension.ashen_bricks": "Ashen Bricks",
+      "block.biomespls.ashen_bricks_slabs": "Ashen Bricks slab",
+      "item.scorcheddimension.void_sword": "Void sword",
+      "item.biomespls.scorched_dimension": "Scorched torch",
+      "item.biomespls.lava_shard": "Lava Shard",
+      "block.scorcheddimension.ash_rock": "Ash Rock",
+      "block.scorcheddimension.scorch_wood_no_flame": "Burnt - out tree",
+      "entity.biomespls.ashen_soul": "Ashen soul",
+      "item.scorcheddimension.lava_slime_spawn_egg": "Lava slime Spawn Egg",
+      "block.biomespls.ash_wood_planks_steps": "Ash Wood Planks stairs",
+      "block.biomespls.zaros_ashen_stone": "Mossy Ashen Stone",
+      "item.biomespls.bone_stick": "Bone stick",
+      "block.scorcheddimension.rocky_rock": "Rocky Rock",
+      "subtitles.ashambient": "ffffe",
+      "item.scorcheddimension.ash_soul_heart": "Ash Soul Heart",
+      "item.biomespls.lava_void_shard": "Lava void shard",
+      "block.biomespls.damaged_ashen_bricks_stairs": "Damaged Ashen Bricks stairs",
+      "block.biomespls.ash_rock_slab": "Ash Rock slab",
+      "block.scorcheddimension.damaged_ashen_bricks_slabs": "Damaged Ashen Bricks",
+      "block.biomespls.ashen_bricks_stair": "Ashen Bricks stairs",
+      "item.scorcheddimension.ghost_spawn_egg": "Ghost Spawn Egg",
+      "entity.biomespls.ashen_skeleton": "Ashen skeleton",
+      "entity.scorcheddimension.quaddy": "Quaddy",
+      "subtitles.nightokos": "",
+      "item.biomespls.ashwater_bucket": "Ashwater Bucket",
+      "biome.scorcheddimension.biome_scorched": "Scorched biome",
+      "block.scorcheddimension.scorched_wood": "Scorched Wood",
+      "block.scorcheddimension.ash_wood_planks_steps": "Ash Wood Planks",
+      "block.scorcheddimension.ashen_bricks_slabs": "Ashen Bricks",
+      "item.scorcheddimension.void_spear": "Void Spear",
+      "block.biomespls.rocky_rock": "Dense Stone",
+      "item.biomespls.elemental_shard": "Void shards",
+      "item.scorcheddimension.ashbone": "Ashbone",
+      "block.scorcheddimension.ashwater": "Ash water",
+      "subtitles.okonightattack": "",
+      "item.scorcheddimension.lava_shard": "Lava Shard",
+      "block.biomespls.scorchedearth": "Scorched earth",
+      "block.scorcheddimension.ash_coal": "Ash Coal",
+      "item.scorcheddimension.throwing_torch": "Throwing Torch",
+      "itemGroup.tabscorched_biome": "Scorched biome",
+      "effect.scorcheddimension.elem_death": "Elemental death",
+      "item.scorcheddimension.ash_slime_spawn_egg": "Ashen slime Spawn Egg",
+      "fluid.scorcheddimension.ashwater": "Ash water",
+      "block.biomespls.ash_coal": "Ash Coal",
+      "biome.biomespls.rocky_hills": "Rocky Hills",
+      "block.scorcheddimension.very_breaked_ash_stone": "Very Breaked Ash Stone",
+      "block.scorcheddimension.ash_wood_planks": "Ash Wood Planks",
+      "item.scorcheddimension.bone_stick": "Bone stick",
+      "item.scorcheddimension.void_shovel": "Void shovel",
+      "item.biomespls.elemental_picaxe": "Void picaxe",
+      "item.scorcheddimension.elemental_picaxe": "Void picaxe",
+      "item.biomespls.void_sword": "Void sword",
+      "subtitles.ashost": "",
+      "subtitles.okonightdeath": "",
+      "block.biomespls.damaged_ashen_bricks_slabs": "Damaged Ashen Bricks slab",
+      "block.scorcheddimension.zaros_ashen_stone": "Zaros Ashen Stone",
+      "item.biomespls.ash_slime_spawn_egg": "Ashen slime Spawn Egg",
+      "entity.biomespls.lava_slime": "Lava slime",
+      "item.scorcheddimension.element": "Element",
+      "item.scorcheddimension.ashen_soul_spawn_egg": "Ashen soul Spawn Egg",
+      "block.scorcheddimension.ash_craft_block_12": "Ash Rock",
+      "block.scorcheddimension.ash_craft_block_11": "Ash Rock",
+      "item.biomespls.element": "Element",
+      "item.biomespls.void_spear": "Void Spear",
+      "item.scorcheddimension.scorched_dimension": "Scorched torch",
+      "entity.scorcheddimension.shechel": "Shechel",
+      "block.biomespls.ash_rock_stair": "Ash Rock stairs",
+      "entity.scorcheddimension.ghost": "Ghost",
+      "subtitles.okonightidle": "",
+      "block.scorcheddimension.ash_history_block_24": "Ash Rock",
+      "item.scorcheddimension.void_hoe": "Void Hoe",
+      "entity.biomespls.night_oko_aggressive": "Night Oko",
+      "block.biomespls.ash_wood_planks": "Ash Wood Planks",
+      "entity.scorcheddimension.ashen_skeleton": "Ashen skeleton",
+      "item.biomespls.ashen_soul_spawn_egg": "Ashen soul Spawn Egg",
+      "entity.biomespls.ash_slime": "Ashen slime",
+      "entity.scorcheddimension.lava_slime": "Lava slime",
+      "block.biomespls.ash_history_block_6": "Rock art 1 6",
+      "block.biomespls.ash_history_block_5": "Rock art 1 5",
+      "block.biomespls.ash_history_block_4": "Rock art 1 4",
+      "item.scorcheddimension.elemental_shard": "Void hards",
+      "block.scorcheddimension.ash_history_block_23": "Ash Rock",
+      "entity.biomespls.ghost": "Ghost",
+      "block.biomespls.ash_history_block_3": "Rock art 1 3",
+      "block.scorcheddimension.ash_history_block_22": "Ash Rock",
+      "block.biomespls.ash_history_block_2": "Rock art 1 2",
+      "entity.scorcheddimension.night_oko_aggressive": "Night Oko",
+      "block.scorcheddimension.ashboneblock": "Ash bone block",
+      "block.scorcheddimension.ash_history_block_21": "Ash Rock",
+      "block.scorcheddimension.ash_rock_stair": "Ash Rock",
+      "item.biomespls.ash_soul_heart": "Ash Soul Heart",
+      "block.biomespls.ash_history_block_1": "Rock art 1 1",
+      "item.scorcheddimension.night_oko_aggressive_spawn_egg": "Night Oko Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "WoodGener",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Crafts",
+        "children": []
+      },
+      {
+        "name": "ScrHouses",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "scorcheddimension",
+    "modName": "Scorched dimension",
+    "version": "0.1",
+    "description": "Scorched dimension is there! Enjoy!",
+    "author": "Krich01, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "modPicture": "shlime",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.scorcheddimension",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

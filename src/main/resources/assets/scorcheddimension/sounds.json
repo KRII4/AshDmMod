@@ -1,0 +1,146 @@
+{
+  "ashambient": {
+    "category": "ambient",
+    "subtitle": "subtitles.ashambient",
+    "sounds": [
+      {
+        "name": "scorcheddimension:soundtrack1",
+        "stream": false
+      }
+    ]
+  },
+  "okonighthurt": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "scorcheddimension:okonighthurt",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonighthurt2",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonighthurt3",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonighthurt4",
+        "stream": false
+      }
+    ]
+  },
+  "okonightidle": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "scorcheddimension:okonightidle",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle2",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle3",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle4",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle5",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle6",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle7",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle8",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle9",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle10",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightidle11",
+        "stream": false
+      }
+    ]
+  },
+  "slimejump4": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "scorcheddimension:slimejump4",
+        "stream": false
+      }
+    ]
+  },
+  "okonightdeath": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "scorcheddimension:okonightdeath",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightdeath2",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightdeath3",
+        "stream": false
+      }
+    ]
+  },
+  "okonightsteps": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "scorcheddimension:okonightstep",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightstep2",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightstep3",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightstep4",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightstep5",
+        "stream": false
+      },
+      {
+        "name": "scorcheddimension:okonightstep6",
+        "stream": false
+      }
+    ]
+  },
+  "okonightattack": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "scorcheddimension:nightokoattack",
+        "stream": false
+      }
+    ]
+  }
+}

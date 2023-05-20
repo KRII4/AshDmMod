@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "biomespls:ashgrass",
-    "biomespls:scorchedearth",
-    "biomespls:ash_coal"
+    "scorcheddimension:ashgrass",
+    "scorcheddimension:scorchedearth",
+    "scorcheddimension:ash_coal"
   ]
 }

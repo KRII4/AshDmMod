@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "scorcheddimension:block/ashen_bricks_slabs"
+    },
+    "type=top": {
+      "model": "scorcheddimension:block/ashen_bricks_slabs_top"
+    },
+    "type=double": {
+      "model": "scorcheddimension:block/ashen_bricks_slabs_full"
+    }
+  }
+}

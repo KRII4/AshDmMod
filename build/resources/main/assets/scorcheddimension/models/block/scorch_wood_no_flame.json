@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scorcheddimension:blocks/scorchtopnofire2",
+    "up": "scorcheddimension:blocks/scorchtopnofire2",
+    "north": "scorcheddimension:blocks/scorchwoodnoflame2",
+    "east": "scorcheddimension:blocks/scorchwoodnoflame2",
+    "south": "scorcheddimension:blocks/scorchwoodnoflame2",
+    "west": "scorcheddimension:blocks/scorchwoodnoflame2",
+    "particle": "scorcheddimension:blocks/scorchtopnofire2"
+  },
+  "render_type": "solid"
+}

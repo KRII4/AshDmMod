@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "elshard1",
+    "texture": "voidshards",
     "customModelName": "Normal",
-    "name": "Elemental Shard",
+    "name": "Void hards",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ScorchedBiome"
@@ -32,6 +32,9 @@
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "eat"

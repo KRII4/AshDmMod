@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "voidhoe",
+    "customModelName": "Normal",
+    "name": "Void Hoe",
+    "specialInfo": [
+      "Useless thing ever"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ScorchedBiome"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 5,
+    "efficiency": 14.0,
+    "attackSpeed": 4.0,
+    "enchantability": 19,
+    "damageVsEntity": 1.0,
+    "usageCount": 1760,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElementalShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

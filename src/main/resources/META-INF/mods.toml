@@ -3,24 +3,25 @@ loaderVersion="[43,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="biomespls"
-version="0.0.1"
-displayName="Biomespls"
+modId="scorcheddimension"
+version="0.1"
+displayName="Scorched dimension"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 authors="Krich01, MCreator"
 description='''
-Ash timension is there!
+Scorched dimension is there! Enjoy!
 '''
 
-[[dependencies.biomespls]]
+[[dependencies.scorcheddimension]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.biomespls]]
+[[dependencies.scorcheddimension]]
     modId="forge"
     mandatory=true
     versionRange="[43.2.0]"
@@ -28,7 +29,7 @@ Ash timension is there!
     side="BOTH"
 
 
-[[dependencies.biomespls]]
+[[dependencies.scorcheddimension]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"

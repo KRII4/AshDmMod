@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "scorcheddimension:blocks/dmgashenbricks",
+    "top": "scorcheddimension:blocks/dmgashenbricks",
+    "side": "scorcheddimension:blocks/dmgashenbricks"
+  },
+  "render_type": "solid"
+}

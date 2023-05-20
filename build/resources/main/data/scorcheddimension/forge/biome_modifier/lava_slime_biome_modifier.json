@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "scorcheddimension:biome_scorched",
+  "spawners": {
+    "type": "scorcheddimension:lava_slime",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

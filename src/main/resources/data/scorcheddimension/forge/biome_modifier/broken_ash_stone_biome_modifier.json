@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "scorcheddimension:broken_ash_stone",
+  "step": "underground_ores"
+}

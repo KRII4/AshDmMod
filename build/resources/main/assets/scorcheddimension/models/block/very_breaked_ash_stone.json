@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "scorcheddimension:blocks/vrybreakashstone",
+    "up": "scorcheddimension:blocks/vrybreakashstone",
+    "north": "scorcheddimension:blocks/vrybreakashstone",
+    "east": "scorcheddimension:blocks/vrybreakashstone",
+    "south": "scorcheddimension:blocks/vrybreakashstone",
+    "west": "scorcheddimension:blocks/vrybreakashstone",
+    "particle": "scorcheddimension:blocks/vrybreakashstone"
+  },
+  "render_type": "solid"
+}

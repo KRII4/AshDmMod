@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "scorcheddimension:biome_scorched",
+  "features": "scorcheddimension:scws_11",
+  "step": "surface_structures"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "scorcheddimension:ashbone"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "scorcheddimension:ashbone"
+    }
+  },
+  "result": {
+    "item": "scorcheddimension:bone_stick",
+    "count": 4
+  }
+}

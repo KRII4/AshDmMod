@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blaze_rod"
+    },
+    "1": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "2": {
+      "item": "minecraft:blaze_rod"
+    },
+    "3": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "5": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "6": {
+      "item": "minecraft:blaze_rod"
+    },
+    "7": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "8": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "scorcheddimension:netherick",
+    "count": 14
+  }
+}
