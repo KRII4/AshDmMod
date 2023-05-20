@@ -2182,6 +2182,63 @@
           }
         ]
       }
+    },
+    {
+      "name": "ShechelJump",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shechel_jump",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/ShechelJumpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Geckoash",
+      "type": "animatedentity",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geckoash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/entity/GeckoashEntity.java",
+          "src/main/java/net/mcreator/scorcheddimension/entity/model/GeckoashModel.java",
+          "src/main/resources/data/scorcheddimension/forge/biome_modifier/geckoash_biome_modifier.json",
+          "src/main/resources/assets/scorcheddimension/models/item/geckoash_spawn_egg.json",
+          "src/main/java/net/mcreator/scorcheddimension/client/renderer/GeckoashRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "GeckoashRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geckoash_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scorcheddimension/procedures/GeckoashRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -2312,6 +2369,7 @@
       "item.scorcheddimension.lava_void_shard": "Lava void shard",
       "item.biomespls.throwing_torch": "Метательный факел",
       "block.biomespls.netherick": "Незерик",
+      "entity.scorcheddimension.geckoash": "Geckoash",
       "entity.biomespls.quaddy": "Квадди",
       "item.scorcheddimension.ashen_skeleton_spawn_egg": "Ashen skeleton Spawn Egg",
       "block.scorcheddimension.ashen_bricks_stair": "Ashen Bricks",
@@ -2370,6 +2428,7 @@
       "block.scorcheddimension.ashwater": "Ash water",
       "subtitles.okonightattack": "",
       "item.scorcheddimension.lava_shard": "Lava Shard",
+      "item.scorcheddimension.geckoash_spawn_egg": "Geckoash Spawn Egg",
       "block.biomespls.scorchedearth": "Выжженная земля",
       "block.scorcheddimension.ash_coal": "Ash Coal",
       "item.scorcheddimension.throwing_torch": "Throwing Torch",
@@ -2476,6 +2535,7 @@
       "item.scorcheddimension.lava_void_shard": "Lava void shard",
       "item.biomespls.throwing_torch": "Throwing Torch",
       "block.biomespls.netherick": "Netherick",
+      "entity.scorcheddimension.geckoash": "Geckoash",
       "entity.biomespls.quaddy": "Quaddy",
       "item.scorcheddimension.ashen_skeleton_spawn_egg": "Ashen skeleton Spawn Egg",
       "block.scorcheddimension.ashen_bricks_stair": "Ashen Bricks",
@@ -2534,6 +2594,7 @@
       "block.scorcheddimension.ashwater": "Ash water",
       "subtitles.okonightattack": "",
       "item.scorcheddimension.lava_shard": "Lava Shard",
+      "item.scorcheddimension.geckoash_spawn_egg": "Geckoash Spawn Egg",
       "block.biomespls.scorchedearth": "Scorched earth",
       "block.scorcheddimension.ash_coal": "Ash Coal",
       "item.scorcheddimension.throwing_torch": "Throwing Torch",
